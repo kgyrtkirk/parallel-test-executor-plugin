@@ -9,4 +9,4 @@ variables:
 
 
 build:
-  script: "mvn test -B"
+  script: "mvn test -B -T4"

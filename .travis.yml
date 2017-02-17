@@ -14,5 +14,5 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn -B test
+  - mvn -B test -T4
 
