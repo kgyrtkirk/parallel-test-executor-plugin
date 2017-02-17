@@ -4,5 +4,8 @@ cache:
   paths:
     - .m2/
 
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2"
+
 build:
   script: "mvn test -B"
