@@ -4,6 +4,11 @@ language: java
 
 #env: MAVEN_OPTS="-Xmx2G -XX:MaxPermSize=512M"
 
+cache:
+  directories:
+  - .autoconf
+  - $HOME/.m2
+
 jdk:
   - oraclejdk8
 

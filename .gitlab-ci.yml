@@ -1,4 +1,8 @@
 image: maven:3-jdk-7
 
+cache:
+  paths:
+    - .m2/
+
 build:
   script: "mvn test -B"
