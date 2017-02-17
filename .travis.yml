@@ -1,0 +1,12 @@
+language: java
+
+#sudo: required
+
+env: MAVEN_OPTS="-Xmx2G -XX:MaxPermSize=512M"
+
+jdk:
+  - oraclejdk8
+
+script:
+  - mvn -B test
+
