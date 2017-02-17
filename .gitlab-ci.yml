@@ -9,5 +9,5 @@ variables:
 
 
 build:
-  script: "mvn test -B -T4"
+  script: "mvn help -B -T4"
 
